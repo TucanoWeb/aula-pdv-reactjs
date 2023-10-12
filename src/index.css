@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;  
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 95px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: -60px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}

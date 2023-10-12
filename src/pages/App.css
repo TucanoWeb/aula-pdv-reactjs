@@ -1,0 +1,237 @@
+.WrapperBody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.WrapperLogin {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.wrapperHeader {
+  width: 95%;
+  height: 350px;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.containnerTitle {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid orangered;
+  justify-content: center;
+
+}
+
+.cartContainner {
+  display: flex;
+  position: absolute;
+  right: 250px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* Icon cart pages */
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 3.5rem !important;
+}
+
+.appContainner {
+  width: 90%;
+  display: flex;
+  margin-top: 65px;
+  height: auto;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftContainner {
+  width: 50%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContainner {
+  width: 50%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formLogin button {
+  width: 150px;
+  font-size: 25px;
+  background-color: brown;
+  transition: 0.5 ease-in-out;
+}
+
+.formLogin button:hover {
+  background-color: white;
+  border: 1px solid brown;
+  color: black
+}
+
+/* Componente ProdutosContainner */
+
+.produtosWrapper {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.titleWrapper {
+  display: flex;
+  width: 100%;
+  background-color: brown;
+  height: 70px;
+}
+
+.title {
+  padding: 15px;
+  font-size: 35px;
+  display: flex;
+  font-weight: 600;
+  text-transform: uppercase;
+  flex-direction: row;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.imagesBox {
+  width: 230px;
+  height: 230px;
+  border: 1px solid black;
+  margin-top: 10px;
+  transition: .5 ease-in-out;
+  cursor: pointer;
+}
+
+.imagesBox:hover {
+  box-shadow: 5px 5px 0 0 black;
+}
+
+
+/* BLOCO PAGINA CADASTRAR PRODUTO */
+.produtosWrapperRegister {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.produtoBoxContainnerUp {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 85px;
+
+}
+
+.formLoginRegister {
+  display: flex;
+  border: 1px solid black;
+}
+
+.formLoginRegister form {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 10px 10px;
+}
+
+.formLoginRegister button:hover {
+  background-color: white;
+  border: 1px solid brown;
+  color: black
+}
+
+.describe {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-left: 25px;
+}
+
+.produtosWrapperRegister button {
+  display: flex;
+  margin-top: -100px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+
+.buttonContainner {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  top: 220px;
+  left: -100px;
+}
+
+.registeredProduct {
+  width: 100%;
+  max-height: 100px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+
+/* BLOCO CARTCOMP COMPONENT */
+
+.cartWrapperBox {
+  background-color: white;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentCartWrapper {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.wrapperProductListCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  background-color: rgb(150, 143, 143);
+}
+
+.productsListCart {
+  font-size: 45px;
+  border: 1px solid black;
+  width: auto;
+  padding: 5px;
+}
